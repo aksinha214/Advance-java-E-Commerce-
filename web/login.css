@@ -1,0 +1,75 @@
+/* Style the container */
+.container_login {
+    background: 
+     linear-gradient(180deg, #fde1ff, #e1ffea22 60%) top, /* Top gradient */
+        linear-gradient(0deg, #fde1ff, #e1ffea22 60%) bottom; /* Bottom gradient */
+    background-size: 100% 50%; /* Half of the container's height for each gradient */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the card */
+.card {
+    background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card header */
+.card-header {
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .card-header img{
+            width: 50px;
+        }
+
+/* Style the form */
+.card-body form {
+    text-align: center;
+}
+
+/* Style the form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style the labels */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Style the input fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the login button */
+.btn {
+    background: linear-gradient(180deg, #fde1ff, #e1ffe2);
+    width: 100%;
+    padding: 10px;
+  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the login button on hover */
+.btn:hover {
+    background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}

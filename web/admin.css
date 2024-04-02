@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 23, 2024, 10:38:34 PM
+    Author     : AR ZO ON
+*/
+
+.Head{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    align-items: center;
+     justify-content: center; /* Center items horizontally */
+   
+}
+.Head img{
+    margin-right: 10px;
+}
+
+    
+    
+.left-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+button {
+     justify-content: center;
+    margin-bottom: 10px; 
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px; 
+}
+
+

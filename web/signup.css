@@ -1,0 +1,126 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 22, 2024, 10:30:36 PM
+    Author     : AR ZO ON
+*/
+.container_signup {
+         
+             background: 
+                        linear-gradient(180deg, #fde1ff, #e1ffea22 60%) top, /* Top gradient */
+                        linear-gradient(0deg, #fde1ff, #e1ffea22 60%) bottom; /* Bottom gradient */
+    background-size: 100% 50%; /* Half of the container's height for each gradient */
+    background-repeat: no-repeat;
+     width: 100%;
+    
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+        /* Styles for the card */
+        .card {
+            background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styles for the card header */
+        .card-header {
+            text-decoration: underline;
+            background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .card-header img{
+            width: 50px;
+        }
+        /* Styles for the card body */
+        .card-body {
+            padding: 20px;
+        }
+
+        /* Styles for the form */
+        form {
+            margin-bottom: 0;
+        }
+
+        /* Styles for form groups */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* Styles for labels */
+        label {
+            font-weight: bold;
+        }
+
+        /* Styles for inputs */
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        /* Styles for checkboxes */
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        /* Styles for the terms and privacy policy */
+        .terms {
+            margin-bottom: 20px;
+        }
+
+        /* Styles for the submit button */
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(180deg, #fde1ff, #e1ffe2);
+            
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Styles for the submit button on hover */
+        .btn:hover {
+             background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+        }
+
+        /* Styles for the link */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Styles for the link on hover */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styles for the text-center class */
+        .text-center {
+            text-align: center;
+        }
+
+        /* Styles for the p tag */
+        p {
+            margin-top: 10px;
+        }

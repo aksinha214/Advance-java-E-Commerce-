@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 23, 2024, 4:31:05 PM
+    Author     : AR ZO ON
+*/
+
+body{
+    background: linear-gradient(180deg, rgba(253, 225, 255, 0.8), rgba(225, 255, 226, 0.8));
+
+}
+.container_order{
+     background: 
+     linear-gradient(180deg, #fde1ff, #e1ffea22 60%) top, /* Top gradient */
+        linear-gradient(0deg, #fde1ff, #e1ffea22 60%) bottom; /* Bottom gradient */
+    background-size: 100% 50%; /* Half of the container's height for each gradient */
+    background-repeat: no-repeat;
+}
+ .table tbody td{
+     background:
+               linear-gradient(180deg, #fde1ff, #e1ffea22 60%) top, /* Top gradient */
+        linear-gradient(0deg, #fde1ff, #e1ffea22 60%) bottom; /* Bottom gradient */
+    background-size: 100% 50%; /* Half of the container's height for each gradient */
+    background-repeat: no-repeat; 
+                vertical-align: middle;
+            }
+            .btn_edit{
+                   margin-left: 50rem!important;
+                background: linear-gradient(180deg, #fde1ff, #e1ffe2);
+    width: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+            }

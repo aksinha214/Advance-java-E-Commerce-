@@ -1,0 +1,14 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 31-Mar-2024, 3:24:14 pm
+    Author     : Ar Zo On
+*/
+.container{
+     background: 
+                        linear-gradient(180deg, #fde1ff, #e1ffea22 60%) top, 
+                        linear-gradient(0deg, #fde1ff, #e1ffea22 60%) bottom;
+     background-size: 100% 50%;
+}
