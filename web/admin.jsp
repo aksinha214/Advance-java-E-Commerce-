@@ -23,9 +23,9 @@
             
             <a href="product.jsp"><button type="product" name="product">Products</button></a>
             
-            <a href="orderAdmin.jsp"><button type="orderAdmin" name="orderAdmin">Carts Details</button></a>
+            <a href="orderAdmin.jsp"><button type="Cart" name="orderAdmin">Carts Details</button></a>
             
-            <a href="orderAdmin.jsp"><button type="orderAdmin" name="orderAdmin">Orders Details</button></a>
+            <a href="orderdetailsad.jsp"><button type="orderAdmin" name="orderAdmin">Orders Details</button></a>
          </div>
     </body>
 </html>

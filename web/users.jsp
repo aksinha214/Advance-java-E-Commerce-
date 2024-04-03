@@ -34,6 +34,7 @@
                 <th>Email</th>
                 <th>Password</th>
                 <th>Action</th>
+                <th>Cookies</th>
             </tr>
             <% 
                 try {
@@ -53,10 +54,12 @@
                             <td><%= rs.getString("pincode") %></td>
                             <td><%= rs.getString("email") %></td>
                             <td><%= rs.getString("password") %></td>
+                            
                             <td>
                                 <a href="users.jsp?action=edit&id=<%= rs.getString("id") %>">Edit</a>
                                 <a href="users.jsp?action=delete&id=<%= rs.getString("id") %>" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
                             </td>
+                            <td><a href="showcookie" >Click here</a></td>
                         </tr>
             <% 
                     }

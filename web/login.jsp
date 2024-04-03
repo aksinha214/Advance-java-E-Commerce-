@@ -19,7 +19,12 @@
 <title>E-Commerce Cart</title>
 <link rel="stylesheet" type="text/css" href="login.css">
 <link rel="stylesheet" type="text/css" href="includes/footer.css">
-
+     <script>
+    function showAlert() {
+        
+        alert("cookies has been created");
+    }
+</script>
 </head>
 <body>
 	<%@include file="/includes/navbar.jsp"%>
@@ -30,7 +35,7 @@
                             <img src="product-images/logo_big.png" alt="" />E-Commerce Cart
                     <br>User Login</div>
 			<div class="card-body">
-				<form action="user-login" method="post">
+				<form action="user-login" method="post" onsubmit="showAlert()">
 					<div class="form-group">
 						<label>Email address</label> 
                                                 <input type="email" name="login-email" class="form-control" placeholder="Enter email" required>
